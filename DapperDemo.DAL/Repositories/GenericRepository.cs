@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using System.Data;
 
-namespace DapperDemo.DAL
+namespace DapperDemo.DAL.Repositories
 {
     public class GenericRepository<TEntity> where TEntity : class
     {

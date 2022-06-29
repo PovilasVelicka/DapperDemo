@@ -1,7 +1,7 @@
 ﻿using DapperDemo.DAL.Models;
 using System.Data;
 
-namespace DapperDemo.DAL
+namespace DapperDemo.DAL.Repositories
 {
     public class CategoriesRepository : GenericRepository<Category>
     {

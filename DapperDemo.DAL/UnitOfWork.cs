@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using DapperDemo.DAL.Repositories;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace DapperDemo.DAL
