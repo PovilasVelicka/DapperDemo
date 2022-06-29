@@ -7,7 +7,7 @@ namespace DapperDemo.DAL
     {
         const string CONNECTION_STRING = @"Server=localhost\SQLEXPRESS;Database=BooksDbManyToMany;Trusted_Connection=True;";
 
-        private IDbConnection _connection;
+        private readonly IDbConnection _connection;
         private readonly BooksRepository _booksRepository;
         private readonly CategoriesRepository _categoriesRepository;
 

@@ -3,7 +3,7 @@ using System.Data;
 
 namespace DapperDemo.DAL
 {
-    public  class GenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> where TEntity : class
     {
         private readonly IDbConnection _connection;
         public GenericRepository(IDbConnection dbConnection)

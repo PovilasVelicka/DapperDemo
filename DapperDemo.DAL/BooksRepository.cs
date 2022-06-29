@@ -7,7 +7,6 @@ namespace DapperDemo.DAL
     {
         const string SELECT_ALL_BOOKS = "SELECT * FROM dbo.Books ";
         const string WHERE_BOOKS_BY_NAME = "WHERE Name LIKE @book_name ";
-        const string BOOKS_PROCEDURE = "dbo.getBooksWithPages";
 
         public BooksRepository(IDbConnection dbConnection) : base(dbConnection) { }
 
