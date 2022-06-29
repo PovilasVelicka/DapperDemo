@@ -1,15 +1,11 @@
 ﻿using DapperDemo.BLL;
 
-using (var _controller = new Controller())
+using (var bll = new BookLibrary())
 {
-    var books = _controller.GetBooks("Harry Potter");
+    var harryBooks = bll.GetBooks(nameSubstring: "Harry");
 
-    var books2 = _controller.GetBooksFromProc();
-
-    var categories = _controller.GetCategories("Fantasy");
+    var categories = bll.GetCategories(nameSubstring: "a");
 }
-
-
 
 Console.ReadLine();
 
